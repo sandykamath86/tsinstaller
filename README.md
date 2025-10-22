@@ -28,3 +28,5 @@ TS_FOO=http://bar yarn compile "installer.ts"
 // From the installer runtime
 console.error(COMPILE_TIME_VARIABLES["FOO"]); // "http://bar"
 ```
+
+Compatible node version is Node 16 only
